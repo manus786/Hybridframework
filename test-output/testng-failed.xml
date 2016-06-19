@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [RegressionSuite]">
+  <test name="RegressionTest(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
     <classes>
-      <class name="testcases.VerifyLoginPageWithReport1">
+      <class name="testcases.VerifyHomePage">
         <methods>
           <include name="testHomePage"/>
-          <include name="tearDown"/>
-          <include name="setUP"/>
         </methods>
-      </class> <!-- testcases.VerifyLoginPageWithReport1 -->
+      </class> <!-- testcases.VerifyHomePage -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- RegressionTest(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->

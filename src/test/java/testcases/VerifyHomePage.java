@@ -20,11 +20,11 @@ public class VerifyHomePage {
 	public void setUP()
 	{
 		
-		 driver=BrowserFactory.getBrowser("firefox");
+		driver=BrowserFactory.getBrowser("firefox");
 		driver.get(DataProviderFactory.getConfig().getApplicationUrl());
 	}
 	
-	@Test
+	@Test(groups={"smoke"})
 	public void testHomePage()
 	{
 		//WebDriver driver=BrowserFactory.getBrowser("firefox");
