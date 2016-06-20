@@ -56,7 +56,7 @@
 <version>2.17</version>
 <configuration>
 <suiteXmlFiles>
-<suiteXmlFile>Regression.xml</suiteXmlFile>
+<suiteXmlFile>testng.xml</suiteXmlFile>
 </suiteXmlFiles>
 </configuration>
 </plugin>

@@ -11,9 +11,11 @@ import dataprovider.ConfigDataProvider;
 
 public class BrowserFactory {
 	
-	static WebDriver driver;
+	
 	public static WebDriver getBrowser(String browserName)
 	{
+		WebDriver driver=null;
+		
 		if(browserName.equalsIgnoreCase("firefox"))
 		{
 			driver = new FirefoxDriver();

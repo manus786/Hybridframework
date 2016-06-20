@@ -11,7 +11,7 @@ public class HomePage {
 	{
 	this.driver=ldriver;
 
-}
+    }
 	
 	@FindBy(xpath="//a[text()='Sign In']") WebElement signInlink;
 	@FindBy(xpath="//a[text()='My Account']") WebElement myAccountLink;

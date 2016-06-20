@@ -14,7 +14,7 @@ import factory.DataProviderFactory;
 
 public class VerifyHomePage {
 	
-	WebDriver driver;
+	private WebDriver driver;
 	
 	@BeforeMethod
 	public void setUP()
