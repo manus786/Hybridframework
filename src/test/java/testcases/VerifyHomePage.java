@@ -20,6 +20,7 @@ public class VerifyHomePage {
 	public void setUP()
 	{
 		
+		
 		driver=BrowserFactory.getBrowser("firefox");
 		driver.get(DataProviderFactory.getConfig().getApplicationUrl());
 	}
